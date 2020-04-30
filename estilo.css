@@ -1,0 +1,67 @@
+#topnav{
+    background-image: linear-gradient(to top, rgb(20, 20, 20), rgb(32, 32, 32), rgb(32, 32, 32), rgb(0, 120, 136));
+    color: white;
+    
+}
+.navbar-brand{
+    width: 15%;
+}
+
+#logo-brand{
+    position: relative;
+    width: 100%;
+    transition: 0.45s;
+}
+#logo-brand:hover{
+    transform: rotate(-1deg) scale(1.03);
+}
+
+body{
+    background-color: rgb(82, 82, 82);
+}
+
+.srcbtn{
+    border-color: rgb(44, 204, 169);
+    color: rgb(44, 204, 169);
+}
+
+.srcbtn:hover{
+    background-color: rgb(44, 204, 169);
+    color: white;
+}
+
+#portfolio{
+    padding: 40px;
+    margin: 0 50px;
+    margin-top: 40px;
+    min-height: 300px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+    border: 10px rgb(44, 204, 169);
+    border-style:  double ;
+    box-shadow: 0 0 8px rgb(39, 39, 39);
+}
+
+.projectdiv{
+    height: 440px;
+    border: 1px solid black;
+}
+
+.card{
+    margin: 0;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+
+}
+
+.projectcard{
+    box-shadow: 0 0 20px black;
+    position: absolute;
+    top: 5%;
+    margin: auto ;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
